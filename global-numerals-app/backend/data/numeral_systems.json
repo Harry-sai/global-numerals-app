@@ -1,0 +1,50 @@
+[
+  {
+    "id": "roman",
+    "name": "Roman Numerals",
+    "region": "Ancient Rome / Europe",
+    "base": null,
+    "description": "An additive and subtractive numeral system using letters I, V, X, L, C, D, M.",
+    "morphology": "Digits are letters; composition is based on additive (e.g., VIII) and subtractive (e.g., IV) patterns.",
+    "construction_rules": "Write largest symbols first; sometimes place a smaller symbol before a larger one to indicate subtraction.",
+    "recursive_logic": "Numbers are decomposed into thousands, hundreds, tens, and ones, each expressed with symbol combinations.",
+    "cultural_context": "Used in ancient Rome; still used today in clocks, book chapters, and event numbering.",
+    "examples": [
+      { "arabic": 4, "representation": "IV", "explanation": "5 - 1 pattern" },
+      { "arabic": 9, "representation": "IX", "explanation": "10 - 1 pattern" },
+      { "arabic": 2024, "representation": "MMXXIV", "explanation": "2000 + 20 + 4" }
+    ]
+  },
+  {
+    "id": "mayan",
+    "name": "Mayan Numerals",
+    "region": "Mesoamerica",
+    "base": 20,
+    "description": "A vigesimal (base-20) system using dots, bars and a shell sign for zero.",
+    "morphology": "Digits 0–19 are written with up to four dots and three bars; numbers stack vertically with powers of 20.",
+    "construction_rules": "Each level in the stack represents a power of 20; top is most significant.",
+    "recursive_logic": "Numbers are decomposed into coefficients for 20^0, 20^1, 20^2, etc., each shown as a glyph.",
+    "cultural_context": "Used by the Maya civilization, notable for an early explicit zero symbol.",
+    "examples": [
+      { "arabic": 0, "representation": "𝍠", "explanation": "Shell glyph for zero" },
+      { "arabic": 5, "representation": "—", "explanation": "One bar" },
+      { "arabic": 13, "representation": "—•••", "explanation": "Two bars = 10, three dots = 3" }
+    ]
+  },
+  {
+    "id": "chinese",
+    "name": "Chinese Numerals (Modern, Simplified)",
+    "region": "East Asia",
+    "base": 10,
+    "description": "Decimal system with logographic digits and unit characters.",
+    "morphology": "Digits 0–9 have distinct characters; units like 十, 百, 千, 万 mark powers of ten.",
+    "construction_rules": "Compose numbers by combining digit characters with unit characters, inserting 零 for internal zeros.",
+    "recursive_logic": "Decompose into powers of 10, similar to positional systems, but with explicit unit markers.",
+    "cultural_context": "Used in China and other regions; coexists with Arabic numerals in modern usage.",
+    "examples": [
+      { "arabic": 7, "representation": "七", "explanation": "Single digit" },
+      { "arabic": 10, "representation": "十", "explanation": "Ten" },
+      { "arabic": 21, "representation": "二十一", "explanation": "Two tens and one" }
+    ]
+  }
+]

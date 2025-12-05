@@ -1,0 +1,30 @@
+[
+  {
+    "id": "roman_pattern_1",
+    "system_id": "roman",
+    "title": "Guess the Roman Rule",
+    "difficulty": "easy",
+    "prompt": "In a mysterious manuscript, the following pairs appear: 3 → III, 9 → IX, 14 → XIV. Explain the rule and write the Roman numeral for 19.",
+    "hints": [
+      "Look at where small symbols appear before large ones.",
+      "Focus on how 9 and 14 are built from 10, 5, and 1."
+    ],
+    "solution_explanation": "Roman numerals normally write large symbols first, but a smaller symbol before a larger one means subtraction. 19 is 10 + 9, written as XIX.",
+    "answer_type": "representation",
+    "expected": "XIX"
+  },
+  {
+    "id": "mayan_base20_1",
+    "system_id": "mayan",
+    "title": "Stacked Dots and Bars",
+    "difficulty": "medium",
+    "prompt": "You see a two-level Mayan numeral: top: —• (one bar and one dot), bottom: —•• (one bar and two dots). Using base-20 logic, what Arabic number is this?",
+    "hints": [
+      "Convert each level to a digit 0–19.",
+      "Top is 20×digit, bottom is 1×digit."
+    ],
+    "solution_explanation": "Top: —• = 5 + 1 = 6, bottom: —•• = 5 + 2 = 7. Value = 6×20 + 7 = 127.",
+    "answer_type": "arabic",
+    "expected": 127
+  }
+]
